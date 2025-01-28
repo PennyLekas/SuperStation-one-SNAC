@@ -1,0 +1,6 @@
+Partlist
+
+Part     Value          Package         Library                                                  Position (inch)       Orientation
+
+K2       a19032000ux0260   a19032000ux0260    Uxcell                                             (0.201 0.5)           R90
+U$1      NESCONNNO_TABS    NESCONN_NO_TABS    gamepad-conn                                       (0.689 0.757)         R270

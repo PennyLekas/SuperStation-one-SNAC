@@ -1,0 +1,6 @@
+Partlist 
+
+Part     Value          Package      Library                                                  Position (inch)       Orientation
+
+K2       a19032000ux0260   a19032000ux0260 Uxcell                                             (0.213 0.293)         R90
+U$1      GBA-LINK       GBA-LINK     link_port                                                (0.552 0.294)         R90

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "n64-snac-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/n64-snac-eagle-import.kicad_sym")(options "")(descr ""))
+)

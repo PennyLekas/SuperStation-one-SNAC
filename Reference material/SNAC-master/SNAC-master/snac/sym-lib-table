@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "SNAC USB3-mini-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/SNAC USB3-mini-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "SNAC  7ch USB3-5v-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/SNAC  7ch USB3-5v-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "SNAC hdmi-mini-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/SNAC hdmi-mini-eagle-import.kicad_sym")(options "")(descr ""))
+)

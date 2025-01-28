@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "psx-mister-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/psx-mister-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "psx-mc-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/psx-mc-eagle-import.kicad_sym")(options "")(descr ""))
+)

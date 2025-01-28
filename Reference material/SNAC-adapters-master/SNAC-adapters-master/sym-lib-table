@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "nes2p-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/nes2p-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "snes2p-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/snes2p-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "sega_genesis-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/sega_genesis-eagle-import.kicad_sym")(options "")(descr ""))
+)

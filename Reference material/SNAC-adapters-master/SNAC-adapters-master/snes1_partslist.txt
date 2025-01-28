@@ -1,0 +1,6 @@
+Partlist 
+
+Part     Value          Package      Library                                                  Position (inch)       Orientation
+
+K2       a19032000ux0260   a19032000ux0260 Uxcell                                             (0.197 0.85)          R90
+U$1      SNESCONN       SNESCONN     gamepad-conn                                             (0.82 0.323)          R90
