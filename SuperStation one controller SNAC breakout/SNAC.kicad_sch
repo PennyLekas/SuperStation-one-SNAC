@@ -966,141 +966,6 @@
 				)
 			)
 		)
-		(symbol "Device:C_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "capacitor cap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers hide)
 			(pin_names
@@ -1379,151 +1244,6 @@
 				)
 			)
 		)
-		(symbol "Jumper:Jumper_2_Open"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start 1.524 1.27)
-					(mid 0 1.778)
-					(end -1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Nick_IC:SN74LVC1G3157"
 			(pin_numbers hide)
 			(exclude_from_sim no)
@@ -1707,142 +1427,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Regulator_Linear:NCP1117-5.0_SOT223"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NCP1117-5.0_SOT223"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
-				(at 2.54 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1A Low drop-out regulator, Fixed Output 5V, SOT-223"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "REGULATOR LDO 5V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?223*TabPin2*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NCP1117-5.0_SOT223_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "NCP1117-5.0_SOT223_1_1"
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2768,6 +2352,12 @@
 		(uuid "1956efbb-dcca-4287-8fd6-09710f2ae5a8")
 	)
 	(junction
+		(at 400.05 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a190870-b884-4fa5-acd4-71bc257af85e")
+	)
+	(junction
 		(at 121.92 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2846,22 +2436,10 @@
 		(uuid "5fb63701-876b-43d3-b4a5-284da308ef16")
 	)
 	(junction
-		(at 25.4 243.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62d81348-5c78-4175-bd62-5578ddc17c75")
-	)
-	(junction
 		(at 210.82 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "639c6566-cb9f-49ac-8150-2b79bbfc9b27")
-	)
-	(junction
-		(at 25.4 232.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64a44c23-a87a-48d5-9f1c-e6e243cf0c83")
 	)
 	(junction
 		(at 248.92 88.9)
@@ -2904,12 +2482,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d67b630-f707-4e5d-8adc-491f948ffa19")
-	)
-	(junction
-		(at 68.58 232.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d8f8843-deea-45a1-8ae3-d21bb1a59ab9")
 	)
 	(junction
 		(at 238.76 125.73)
@@ -2996,12 +2568,6 @@
 		(uuid "d8ba2365-9dd6-4d97-96ac-563bc380f341")
 	)
 	(junction
-		(at 68.58 243.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "daca8797-c389-4147-8fdd-5b57d36f480c")
-	)
-	(junction
 		(at 185.42 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3012,12 +2578,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3963a41-c216-421b-b50c-b6d687048603")
-	)
-	(junction
-		(at 397.51 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef619ee9-92f8-4f40-8898-4697106e9b69")
 	)
 	(junction
 		(at 111.76 125.73)
@@ -3289,16 +2849,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 254) (xy 254 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00b10c0b-9d24-4903-86c3-be7a21af5779")
-	)
-	(wire
-		(pts
 			(xy 139.7 88.9) (xy 147.32 88.9)
 		)
 		(stroke
@@ -3336,16 +2886,6 @@
 			(type default)
 		)
 		(uuid "032b7a8c-3834-479a-b996-e02b14982181")
-	)
-	(wire
-		(pts
-			(xy 52.07 232.41) (xy 68.58 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03a9f346-740b-4877-9d5a-a167e495d5c0")
 	)
 	(wire
 		(pts
@@ -3389,17 +2929,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 229.87) (xy 68.58 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07337c61-0805-48f6-b436-b069c103a36c")
-	)
-	(wire
-		(pts
-			(xy 370.84 154.94) (xy 370.84 137.16)
+			(xy 369.57 154.94) (xy 369.57 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3539,16 +3069,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 251.46) (xy 68.58 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "172fb354-76d4-4300-a4b0-789d3829bfb8")
-	)
-	(wire
-		(pts
 			(xy 91.44 50.8) (xy 177.8 50.8)
 		)
 		(stroke
@@ -3609,16 +3129,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 236.22) (xy 101.6 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ebc9cb2-404b-4ab8-b448-d72092138be7")
-	)
-	(wire
-		(pts
 			(xy 40.64 87.63) (xy 46.99 87.63)
 		)
 		(stroke
@@ -3629,16 +3139,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 236.22) (xy 254 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ff39b00-b6ea-4a32-87d1-26c4c8d170ce")
-	)
-	(wire
-		(pts
 			(xy 157.48 125.73) (xy 157.48 212.09)
 		)
 		(stroke
@@ -3646,26 +3146,6 @@
 			(type default)
 		)
 		(uuid "20f15f38-e423-45ef-9129-2d72b50509f2")
-	)
-	(wire
-		(pts
-			(xy 25.4 243.84) (xy 25.4 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "212826f9-3edb-4100-9eb5-87fd67a51ddd")
-	)
-	(wire
-		(pts
-			(xy 228.6 236.22) (xy 228.6 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2170ac90-624e-4d43-9651-f3493677936a")
 	)
 	(wire
 		(pts
@@ -3729,7 +3209,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 127) (xy 384.81 127)
+			(xy 374.65 127) (xy 384.81 127)
 		)
 		(stroke
 			(width 0)
@@ -3746,16 +3226,6 @@
 			(type default)
 		)
 		(uuid "2850b46c-bed6-4381-a8cc-84ef879e6077")
-	)
-	(wire
-		(pts
-			(xy 152.4 236.22) (xy 152.4 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2877ca0f-3ee5-41c5-8f81-ad5028114c4c")
 	)
 	(wire
 		(pts
@@ -3817,16 +3287,6 @@
 		)
 		(uuid "338fc95a-0c4c-4e8d-8a92-fde16ba6ab62")
 	)
-	(wire
-		(pts
-			(xy 127 254) (xy 127 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3496de9f-539b-4754-a585-13f21d0b5398")
-	)
 	(bus
 		(pts
 			(xy 295.91 129.54) (xy 295.91 134.62)
@@ -3879,7 +3339,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 134.62) (xy 368.3 134.62)
+			(xy 384.81 134.62) (xy 374.65 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3899,23 +3359,13 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 104.14) (xy 373.38 152.4)
+			(xy 372.11 104.14) (xy 372.11 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "37c4f194-abc1-4a68-8844-72acb3a9d381")
-	)
-	(wire
-		(pts
-			(xy 25.4 229.87) (xy 25.4 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "395498af-67b3-4428-9d4b-1e673a243d03")
 	)
 	(wire
 		(pts
@@ -3999,7 +3449,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 142.24) (xy 378.46 142.24)
+			(xy 384.81 142.24) (xy 377.19 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4069,7 +3519,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 205.74) (xy 365.76 205.74)
+			(xy 327.66 205.74) (xy 377.19 205.74)
 		)
 		(stroke
 			(width 0)
@@ -4106,16 +3556,6 @@
 			(type default)
 		)
 		(uuid "5103208b-4c15-423d-bea8-3b0ecb2255f5")
-	)
-	(wire
-		(pts
-			(xy 101.6 254) (xy 101.6 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5132bd26-6523-4030-89cd-4d5062951a60")
 	)
 	(wire
 		(pts
@@ -4186,16 +3626,6 @@
 			(type default)
 		)
 		(uuid "53b09e4f-c504-4f86-b050-525bafe470a0")
-	)
-	(wire
-		(pts
-			(xy 228.6 254) (xy 228.6 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5483765c-a134-425c-90e4-34450cdf5b4f")
 	)
 	(wire
 		(pts
@@ -4309,6 +3739,16 @@
 	)
 	(wire
 		(pts
+			(xy 400.05 154.94) (xy 402.59 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61755083-9f07-48c5-840d-b2967da68f11")
+	)
+	(wire
+		(pts
 			(xy 274.32 88.9) (xy 281.94 88.9)
 		)
 		(stroke
@@ -4366,16 +3806,6 @@
 			(type default)
 		)
 		(uuid "6a681eda-2329-4236-8be4-c501ca6ae0d7")
-	)
-	(wire
-		(pts
-			(xy 368.3 180.34) (xy 340.36 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b68cfce-95ce-4e32-9e49-0ef0347b5dee")
 	)
 	(wire
 		(pts
@@ -4449,7 +3879,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 142.24) (xy 378.46 53.34)
+			(xy 377.19 142.24) (xy 377.19 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4479,7 +3909,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 137.16) (xy 384.81 137.16)
+			(xy 369.57 137.16) (xy 384.81 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4529,7 +3959,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 78.74) (xy 375.92 78.74)
+			(xy 340.36 78.74) (xy 374.65 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4609,6 +4039,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 180.34) (xy 374.65 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ff96e70-a2f5-45a4-94c6-91fb6fa01bba")
+	)
+	(wire
+		(pts
 			(xy 210.82 86.36) (xy 210.82 88.9)
 		)
 		(stroke
@@ -4626,16 +4066,6 @@
 			(type default)
 		)
 		(uuid "84d724e4-bd98-43c6-b7e9-e9abc688b518")
-	)
-	(wire
-		(pts
-			(xy 152.4 254) (xy 152.4 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85d9b688-9043-4b2e-b4b9-cd75dbf70998")
 	)
 	(wire
 		(pts
@@ -4739,7 +4169,7 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 154.94) (xy 397.51 157.48)
+			(xy 400.05 154.94) (xy 400.05 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4779,7 +4209,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 144.78) (xy 384.81 144.78)
+			(xy 377.19 144.78) (xy 384.81 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4826,16 +4256,6 @@
 			(type default)
 		)
 		(uuid "911d9447-b256-4a1a-b8aa-40a946556b7d")
-	)
-	(wire
-		(pts
-			(xy 203.2 236.22) (xy 203.2 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94e542cc-403f-4e27-9e5a-3050b51c7237")
 	)
 	(wire
 		(pts
@@ -4919,7 +4339,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 78.74) (xy 375.92 127)
+			(xy 374.65 78.74) (xy 374.65 127)
 		)
 		(stroke
 			(width 0)
@@ -5009,7 +4429,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 205.74) (xy 365.76 144.78)
+			(xy 377.19 205.74) (xy 377.19 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5036,16 +4456,6 @@
 			(type default)
 		)
 		(uuid "af4700af-da78-48ed-871b-00a2b4feb618")
-	)
-	(wire
-		(pts
-			(xy 41.91 232.41) (xy 25.4 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af577ebe-16e6-43c5-ad0d-8b40393504aa")
 	)
 	(bus
 		(pts
@@ -5076,16 +4486,6 @@
 			(type default)
 		)
 		(uuid "b21355cf-c9a0-4f1f-ac80-73b89e9a801e")
-	)
-	(wire
-		(pts
-			(xy 203.2 254) (xy 203.2 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b27363ba-c21a-4ec3-bfb4-fa5979b5e887")
 	)
 	(wire
 		(pts
@@ -5169,7 +4569,7 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 154.94) (xy 402.59 154.94)
+			(xy 397.51 154.94) (xy 400.05 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5206,16 +4606,6 @@
 			(type default)
 		)
 		(uuid "bc960b5d-4b8e-447e-9b4e-ca58d4ca74a9")
-	)
-	(wire
-		(pts
-			(xy 378.46 53.34) (xy 327.66 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd01fa62-3c63-4d70-97b8-5a47f36c8d8e")
 	)
 	(wire
 		(pts
@@ -5309,16 +4699,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 251.46) (xy 25.4 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c70940c6-3f01-451e-8da6-cb6698c00fec")
-	)
-	(wire
-		(pts
 			(xy 54.61 72.39) (xy 40.64 72.39)
 		)
 		(stroke
@@ -5349,7 +4729,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 134.62) (xy 368.3 180.34)
+			(xy 374.65 134.62) (xy 374.65 180.34)
 		)
 		(stroke
 			(width 0)
@@ -5359,7 +4739,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 154.94) (xy 370.84 154.94)
+			(xy 327.66 154.94) (xy 369.57 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5406,16 +4786,6 @@
 			(type default)
 		)
 		(uuid "cc6845dd-f2fb-4a9a-9005-28db0c24b684")
-	)
-	(wire
-		(pts
-			(xy 46.99 251.46) (xy 46.99 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd03fbfa-b352-405a-ba8a-16230f50cc60")
 	)
 	(wire
 		(pts
@@ -5469,17 +4839,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 243.84) (xy 68.58 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3c2548d-6218-4a7b-81ae-8b9aea694e06")
-	)
-	(wire
-		(pts
-			(xy 327.66 104.14) (xy 373.38 104.14)
+			(xy 327.66 104.14) (xy 372.11 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5509,16 +4869,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 254) (xy 177.8 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9288024-010a-4959-b46d-1570b750b59e")
-	)
-	(wire
-		(pts
 			(xy 198.12 78.74) (xy 185.42 78.74)
 		)
 		(stroke
@@ -5536,6 +4886,16 @@
 			(type default)
 		)
 		(uuid "d961f4fd-86ee-4053-8e71-0ad64995379b")
+	)
+	(bus
+		(pts
+			(xy 295.91 50.8) (xy 295.91 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d986a6bf-4a73-47c5-970f-24093e046af4")
 	)
 	(wire
 		(pts
@@ -5639,16 +4999,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 236.22) (xy 177.8 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e07aa101-8c7c-412e-8cb5-935f412d80a8")
-	)
-	(wire
-		(pts
 			(xy 311.15 165.1) (xy 322.58 165.1)
 		)
 		(stroke
@@ -5666,16 +5016,6 @@
 			(type default)
 		)
 		(uuid "e85a8267-b39b-4c0e-a678-9748cd536187")
-	)
-	(wire
-		(pts
-			(xy 25.4 232.41) (xy 25.4 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8aadb2b-698b-4416-9479-2b54be6c45de")
 	)
 	(wire
 		(pts
@@ -5749,26 +5089,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 232.41) (xy 68.58 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee8d63c4-70a2-4be3-b255-2b80d4099085")
-	)
-	(wire
-		(pts
-			(xy 25.4 243.84) (xy 39.37 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eee96d57-bc0d-448e-b850-c1078ff19825")
-	)
-	(wire
-		(pts
 			(xy 147.32 162.56) (xy 147.32 165.1)
 		)
 		(stroke
@@ -5776,16 +5096,6 @@
 			(type default)
 		)
 		(uuid "ef019494-e42d-4dac-bcec-3e2bb21e2ad0")
-	)
-	(wire
-		(pts
-			(xy 127 236.22) (xy 127 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efac5ec7-4243-4ae9-9c2d-ea59340480fa")
 	)
 	(wire
 		(pts
@@ -5849,17 +5159,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 243.84) (xy 68.58 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7fd5255-4322-4be5-9340-cb03c2cfdab0")
-	)
-	(wire
-		(pts
-			(xy 373.38 152.4) (xy 400.05 152.4)
+			(xy 372.11 152.4) (xy 400.05 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5899,6 +5199,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 53.34) (xy 377.19 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe5692b9-4d94-46ea-9238-9f69af0e32b0")
+	)
+	(wire
+		(pts
 			(xy 311.15 139.7) (xy 335.28 139.7)
 		)
 		(stroke
@@ -5906,6 +5216,16 @@
 			(type default)
 		)
 		(uuid "ff0c9b8d-7289-4647-a43d-a588c476c41d")
+	)
+	(text "DATA LINE DISCONECTS \nFOR DEBUGGING"
+		(exclude_from_sim no)
+		(at 85.598 36.576 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3072e635-dd38-4841-a85a-478ad5c9c5fb")
 	)
 	(text "INPUT FROM CONTROLLER BREAKOUTS\n"
 		(exclude_from_sim no)
@@ -5918,7 +5238,7 @@
 		)
 		(uuid "3b58df0b-0e17-41f8-8d71-6191eca817f0")
 	)
-	(text "To SNACs"
+	(text "SNAC USB CONNECTOR"
 		(exclude_from_sim no)
 		(at 396.494 109.22 0)
 		(effects
@@ -5928,16 +5248,15 @@
 		)
 		(uuid "46ac2661-bd4a-4dfa-a50a-59709a1cb302")
 	)
-	(text "RUMBLE VOLTAGE STEPDOWN\nDNP REGULATOR AND BRIDGE JUMPER IF RUMBLE VOLTAGE = 5V"
+	(text "3.3V AND 5V\nLOGIC SWITCH"
 		(exclude_from_sim no)
-		(at 46.736 217.424 0)
+		(at 400.05 202.946 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify top)
 		)
-		(uuid "c0d4d3c3-1419-4eca-8869-6cf8ccd67a45")
+		(uuid "8cf99dc2-3090-4e2b-8614-c93912bb5a5b")
 	)
 	(label "HV4"
 		(at 157.48 207.01 90)
@@ -6019,6 +5338,16 @@
 		)
 		(uuid "3922b025-c84f-43da-b507-a3dc6cf85226")
 	)
+	(label "TX-"
+		(at 342.9 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a3b6698-c435-4d8a-95c2-d39756405882")
+	)
 	(label "LV2"
 		(at 93.98 50.8 0)
 		(effects
@@ -6028,6 +5357,26 @@
 			(justify left bottom)
 		)
 		(uuid "3d78c528-c223-48d5-9799-a800babe13a5")
+	)
+	(label "DRAIN"
+		(at 342.9 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "402b9ee0-3ff8-43eb-97ac-807c110d8f9e")
+	)
+	(label "RX-"
+		(at 342.9 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "443ffb18-7a0c-4504-a577-160720ec72e5")
 	)
 	(label "HV1"
 		(at 154.94 207.01 90)
@@ -6078,6 +5427,16 @@
 			(justify left bottom)
 		)
 		(uuid "661f61f0-5d0a-4548-89c2-3056706aaa59")
+	)
+	(label "D-"
+		(at 342.9 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c02312c-74c4-46d1-bc20-52e8c3313fe3")
 	)
 	(label "LV3"
 		(at 93.98 43.18 0)
@@ -6169,6 +5528,16 @@
 		)
 		(uuid "98753a27-24aa-46ae-be43-a6889605d38f")
 	)
+	(label "MUX_SWITCH"
+		(at 358.14 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a7e464f-58d9-44db-ab8d-f3aeb5a0230e")
+	)
 	(label "ATT2"
 		(at 72.39 58.42 0)
 		(effects
@@ -6249,6 +5618,16 @@
 		)
 		(uuid "bca34895-f8f6-4a2e-a13b-b322b9a910b4")
 	)
+	(label "RX+"
+		(at 342.9 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c52ad274-9075-4d57-87b5-2a4ac679e425")
+	)
 	(label "LV1"
 		(at 114.3 207.01 90)
 		(effects
@@ -6319,6 +5698,16 @@
 		)
 		(uuid "d3cb299c-2e92-4c90-a1c6-9adc34850c11")
 	)
+	(label "D+"
+		(at 342.9 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8f4e658-12cc-48e6-8099-df744b28835e")
+	)
 	(label "LV5"
 		(at 302.26 152.4 0)
 		(effects
@@ -6358,6 +5747,16 @@
 			(justify left bottom)
 		)
 		(uuid "f0513a49-fff6-4f64-b36b-3a8cec46081d")
+	)
+	(label "TX+"
+		(at 342.9 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f380323b-dd13-4b2e-a0ce-87bcfe7c726c")
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
@@ -6430,138 +5829,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 152.4 256.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "099cc291-a16d-47fd-91e1-303b5ce037b5")
-		(property "Reference" "#PWR042"
-			(at 152.4 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 152.4 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9667b19f-c2b2-4b13-828d-a47607a7e7e1")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 152.4 236.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0de5d14a-e7c1-4eb6-bf43-a24fd7f7615d")
-		(property "Reference" "#PWR041"
-			(at 152.4 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 152.4 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 152.4 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61df81e2-88f9-4280-aa7f-6780326cc6b9")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 210.82 111.76 0)
 		(unit 1)
@@ -6571,7 +5838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "111288e8-086f-416c-b698-8416f1c54a2d")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR025"
 			(at 210.82 115.57 0)
 			(effects
 				(font
@@ -6621,7 +5888,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR012")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6637,7 +5904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13b7cf59-1b46-40b2-addd-4228cbf8e01e")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 335.28 116.84 0)
 			(effects
 				(font
@@ -6653,7 +5920,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
 			(at 332.74 129.54 0)
 			(effects
 				(font
@@ -6701,7 +5968,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -6782,142 +6049,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 25.4 248.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b3f44c3-82a5-475d-9503-af38ae7fc126")
-		(property "Reference" "C1"
-			(at 27.94 247.6562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 27.94 250.1962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 25.4 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 25.4 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41160905-ee90-42b6-80ec-cfbafa6a7254")
-		)
-		(pin "2"
-			(uuid "e4d8a0fb-24ac-4661-b3be-0dd959193d40")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 177.8 236.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d9a9446-09c9-4ac9-80af-b1a86f856f25")
-		(property "Reference" "#PWR043"
-			(at 177.8 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 177.8 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 177.8 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7f2f3ee-d895-469d-a8e4-d261f6543079")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
 		(at 86.36 50.8 0)
 		(unit 1)
@@ -6926,7 +6057,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "285215cc-25a5-47b2-a1b7-7175079b2448")
-		(property "Reference" "JP5"
+		(property "Reference" "JP4"
 			(at 86.36 48.768 0)
 			(effects
 				(font
@@ -6943,7 +6074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
 			(at 86.36 50.8 0)
 			(effects
 				(font
@@ -6979,7 +6110,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "JP5")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -6994,7 +6125,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28fb1ba4-8972-48e5-a649-270664c37abd")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 36.068 64.516 0)
 			(effects
 				(font
@@ -7010,7 +6141,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S8B-PH-SM4-TB_1x08-1MP_P2.00mm_Horizontal"
 			(at 35.56 77.47 0)
 			(effects
 				(font
@@ -7067,89 +6198,8 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Nick_IC:SN74LVC1G3157")
-		(at 127 246.38 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a8c5f18-7590-48cf-858b-78e5ea934142")
-		(property "Reference" "U3"
-			(at 129.54 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SN74LVC1G3157"
-			(at 129.54 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39a64782-d0ed-4273-ae63-690ce60b4a95")
-		)
-		(pin "5"
-			(uuid "0b83a167-d52d-44c4-abfc-463b7ba5a9fb")
-		)
-		(pin "3"
-			(uuid "271999ec-c1a6-493a-94ad-1ac95173b2c4")
-		)
-		(pin "4"
-			(uuid "e9b00516-e898-4b24-8d9a-fbad9e1ad913")
-		)
-		(pin "2"
-			(uuid "be106ba6-34e4-4d4d-a255-a4c192a4caae")
-		)
-		(pin "6"
-			(uuid "57b9717c-50f9-4127-877f-6bf750bea52a")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "U3")
-					(unit 2)
 				)
 			)
 		)
@@ -7164,7 +6214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2aa5e22e-5d88-4bed-8199-21fc53b630ce")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR016"
 			(at 147.32 78.74 0)
 			(effects
 				(font
@@ -7214,7 +6264,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR04")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7304,7 +6354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2eb35410-5f60-4889-8599-64a998c08743")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR024"
 			(at 185.42 115.57 0)
 			(effects
 				(font
@@ -7354,77 +6404,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 68.58 248.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2fc521c7-41e9-4256-b456-f478ab9b97dc")
-		(property "Reference" "C2"
-			(at 71.12 247.6562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 71.12 250.1962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 68.58 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 68.58 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53723c76-e5fd-42fe-8775-3c3e3c24b8f0")
-		)
-		(pin "2"
-			(uuid "a631b519-8a67-46e7-93e2-9559e2e58af2")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "C2")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7440,7 +6420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30033e0f-af44-4d7a-b9b0-1b33279376f4")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR027"
 			(at 274.32 115.57 0)
 			(effects
 				(font
@@ -7490,7 +6470,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR014")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7506,7 +6486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30bfb1ba-d5b8-41bf-9b87-d230114fc3d3")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR029"
 			(at 121.92 154.94 0)
 			(effects
 				(font
@@ -7556,154 +6536,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Nick_IC:SN74LVC1G3157")
-		(at 228.6 246.38 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "354a83cf-4a49-41ce-b12e-daf263b2131f")
-		(property "Reference" "U7"
-			(at 231.14 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SN74LVC1G3157"
-			(at 231.14 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 228.6 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39a64782-d0ed-4273-ae63-690ce60b4a98")
-		)
-		(pin "5"
-			(uuid "c8a10196-c962-4ac2-8a8f-b5a12274ee98")
-		)
-		(pin "3"
-			(uuid "271999ec-c1a6-493a-94ad-1ac95173b2c7")
-		)
-		(pin "4"
-			(uuid "e9b00516-e898-4b24-8d9a-fbad9e1ad916")
-		)
-		(pin "2"
-			(uuid "6375cffb-707c-46f3-b158-2687e5c0ac16")
-		)
-		(pin "6"
-			(uuid "57b9717c-50f9-4127-877f-6bf750bea52d")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "U7")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 127 236.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36fc0c55-bbcf-47b4-ba66-4636a80af629")
-		(property "Reference" "#PWR038"
-			(at 127 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 127 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 127 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e36b0aee-b743-44b0-b3dc-7f5345806bd1")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR038")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -7719,7 +6552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37f1cec0-6e08-4e9d-ac73-7bb3532204e8")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 335.28 66.04 0)
 			(effects
 				(font
@@ -7735,7 +6568,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
 			(at 332.74 78.74 0)
 			(effects
 				(font
@@ -7783,7 +6616,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7864,168 +6697,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Nick_IC:SN74LVC1G3157")
-		(at 203.2 246.38 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3cc356d1-d94d-4b5c-9df0-e34ecd932be2")
-		(property "Reference" "U6"
-			(at 205.74 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SN74LVC1G3157"
-			(at 205.74 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 203.2 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39a64782-d0ed-4273-ae63-690ce60b4a96")
-		)
-		(pin "5"
-			(uuid "fcf0ad41-ba74-4eb9-b5ae-b5415cab802c")
-		)
-		(pin "3"
-			(uuid "271999ec-c1a6-493a-94ad-1ac95173b2c5")
-		)
-		(pin "4"
-			(uuid "e9b00516-e898-4b24-8d9a-fbad9e1ad914")
-		)
-		(pin "2"
-			(uuid "3edbd23b-5c19-4604-b6af-afa38a07f015")
-		)
-		(pin "6"
-			(uuid "57b9717c-50f9-4127-877f-6bf750bea52b")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "U6")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Nick_IC:SN74LVC1G3157")
-		(at 254 246.38 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "40f91c54-701f-4ee6-a9c8-657e5096be18")
-		(property "Reference" "U8"
-			(at 256.54 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SN74LVC1G3157"
-			(at 256.54 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 254 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39a64782-d0ed-4273-ae63-690ce60b4a93")
-		)
-		(pin "5"
-			(uuid "3152f4c1-eabb-43d6-bc61-44afcf4b4a8b")
-		)
-		(pin "3"
-			(uuid "271999ec-c1a6-493a-94ad-1ac95173b2c2")
-		)
-		(pin "4"
-			(uuid "e9b00516-e898-4b24-8d9a-fbad9e1ad911")
-		)
-		(pin "2"
-			(uuid "98f80898-0e84-416e-ab42-007518d4d18d")
-		)
-		(pin "6"
-			(uuid "57b9717c-50f9-4127-877f-6bf750bea528")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "U8")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 121.92 74.93 0)
 		(unit 1)
@@ -8035,7 +6706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ada711a-2e0b-4d71-ab6b-b08c7dafb63e")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR015"
 			(at 121.92 78.74 0)
 			(effects
 				(font
@@ -8085,7 +6756,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR02")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8100,7 +6771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b264d30-fe79-414d-9400-19682d5039b5")
-		(property "Reference" "JP8"
+		(property "Reference" "JP7"
 			(at 86.36 56.388 0)
 			(effects
 				(font
@@ -8117,7 +6788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
 			(at 86.36 58.42 0)
 			(effects
 				(font
@@ -8153,7 +6824,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "JP8")
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -8224,72 +6895,6 @@
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 228.6 256.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f2fff1f-c1ab-4d94-a411-c77d2d885047")
-		(property "Reference" "#PWR048"
-			(at 228.6 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 228.6 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1ac3455-796b-41d0-ba84-13b0b2a3a31a")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -8515,7 +7120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dc9a551-1c4b-4cf1-8d46-97a7985e0f9e")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR022"
 			(at 121.92 115.57 0)
 			(effects
 				(font
@@ -8565,7 +7170,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR09")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8581,7 +7186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60d4904b-30cd-4905-97af-1592f01978c0")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR030"
 			(at 147.32 154.94 0)
 			(effects
 				(font
@@ -8631,7 +7236,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR017")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -8647,7 +7252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "633bcee9-99a0-4a9a-a1af-92367eb0185a")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR013"
 			(at 43.18 34.29 0)
 			(effects
 				(font
@@ -8697,89 +7302,8 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR030")
+					(reference "#PWR013")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Nick_IC:SN74LVC1G3157")
-		(at 101.6 246.38 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "637a602e-389d-4524-ae5e-880f7a1d8657")
-		(property "Reference" "U2"
-			(at 104.14 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SN74LVC1G3157"
-			(at 104.14 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39a64782-d0ed-4273-ae63-690ce60b4a93")
-		)
-		(pin "5"
-			(uuid "9fa0d7c0-4d99-463b-9b51-b22e26f28046")
-		)
-		(pin "3"
-			(uuid "271999ec-c1a6-493a-94ad-1ac95173b2c2")
-		)
-		(pin "4"
-			(uuid "e9b00516-e898-4b24-8d9a-fbad9e1ad911")
-		)
-		(pin "2"
-			(uuid "39ba2e04-33b3-4b03-9ee4-eaa03e14c29d")
-		)
-		(pin "6"
-			(uuid "57b9717c-50f9-4127-877f-6bf750bea528")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "U2")
-					(unit 2)
 				)
 			)
 		)
@@ -8793,7 +7317,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64157f75-2482-4b10-8302-096570506447")
-		(property "Reference" "JP2"
+		(property "Reference" "JP1"
 			(at 86.36 41.148 0)
 			(effects
 				(font
@@ -8810,7 +7334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
 			(at 86.36 43.18 0)
 			(effects
 				(font
@@ -8846,7 +7370,7 @@
 		(instances
 			(project ""
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "JP2")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -8924,72 +7448,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 254 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6591e394-f4ad-432d-80d8-1e9b1cee2641")
-		(property "Reference" "#PWR022"
-			(at 68.58 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 68.58 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ffdf3bbc-44bb-4414-bde7-0f1079ab6a53")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 386.08 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8998,7 +7456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6658672b-5f6d-45a4-b695-d247ed49e7b5")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR033"
 			(at 386.08 232.41 0)
 			(effects
 				(font
@@ -9048,7 +7506,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR051")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9064,7 +7522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66e26a58-bda0-42fb-8f38-1c80c3709a67")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR019"
 			(at 248.92 78.74 0)
 			(effects
 				(font
@@ -9114,7 +7572,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR07")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9130,7 +7588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "720b562b-ab8c-4e43-a9d4-ffff807a581a")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR020"
 			(at 274.32 78.74 0)
 			(effects
 				(font
@@ -9180,75 +7638,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 46.99 232.41 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72bef8e6-b2f2-4d2a-8de2-6b2dae34c409")
-		(property "Reference" "JP1"
-			(at 46.99 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Open"
-			(at 46.99 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 46.99 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6c531157-f646-4209-b05d-5372d6509bde")
-		)
-		(pin "1"
-			(uuid "3b7374da-3cc0-4a30-9a0b-e4e7c73530e7")
-		)
-		(instances
-			(project ""
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "JP1")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9264,7 +7654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "737a9f76-3cb1-4b56-b2ad-b9f34430d91a")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR032"
 			(at 414.02 209.55 0)
 			(effects
 				(font
@@ -9314,7 +7704,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR052")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -9468,7 +7858,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8543cef6-8de6-4725-9a18-14a9cfe9a6c7")
-		(property "Reference" "J7"
+		(property "Reference" "J5"
 			(at 36.068 35.306 0)
 			(effects
 				(font
@@ -9484,7 +7874,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S8B-PH-SM4-TB_1x08-1MP_P2.00mm_Horizontal"
 			(at 35.56 48.26 0)
 			(effects
 				(font
@@ -9541,7 +7931,7 @@
 		(instances
 			(project ""
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "J7")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -9558,7 +7948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8721b726-a180-4378-a1f5-a49dbcca01ad")
-		(property "Reference" "J2"
+		(property "Reference" "J7"
 			(at 397.51 113.03 0)
 			(effects
 				(font
@@ -9634,7 +8024,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "J2")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -9650,7 +8040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fb090b4-24a0-43bd-8a22-12c75c7b3eb8")
-		(property "Reference" "U7"
+		(property "Reference" "U6"
 			(at 335.28 167.64 0)
 			(effects
 				(font
@@ -9666,7 +8056,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
 			(at 332.74 180.34 0)
 			(effects
 				(font
@@ -9714,7 +8104,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "U7")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -9785,138 +8175,6 @@
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 46.99 254 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9110aff0-a3b6-46b6-a28c-bd946e1ed2c5")
-		(property "Reference" "#PWR021"
-			(at 46.99 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 46.99 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b795c1e-5c0b-4ce7-9c25-5841e55266ff")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 254 236.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "923b0375-a54d-4f78-8d69-b4dca2af50fe")
-		(property "Reference" "#PWR049"
-			(at 254 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 254 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 254 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d3304b6-9de7-4540-a648-df1a2e5d2efd")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -9997,72 +8255,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 101.6 236.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95bdba65-fe90-4c20-a832-0901fbebb1c0")
-		(property "Reference" "#PWR037"
-			(at 101.6 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 101.6 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 101.6 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1626b05a-e631-46c3-be5a-98ded34f0e8a")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
 		(at 86.36 55.88 0)
 		(unit 1)
@@ -10071,7 +8263,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98495c20-f2d1-4277-ae49-edc6074e9f45")
-		(property "Reference" "JP7"
+		(property "Reference" "JP6"
 			(at 86.36 53.848 0)
 			(effects
 				(font
@@ -10088,7 +8280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
 			(at 86.36 55.88 0)
 			(effects
 				(font
@@ -10124,7 +8316,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "JP7")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -10214,7 +8406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cadfdb0-94f7-442d-8f44-2a6a405b9497")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR023"
 			(at 147.32 115.57 0)
 			(effects
 				(font
@@ -10264,7 +8456,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR010")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10280,7 +8472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4c208d1-74e3-4065-a213-c5617b37bf6b")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR017"
 			(at 185.42 78.74 0)
 			(effects
 				(font
@@ -10330,7 +8522,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR05")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10477,87 +8669,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Nick_IC:SN74LVC1G3157")
-		(at 152.4 246.38 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a94846d6-26e9-40fb-b21a-ba9422e80c68")
-		(property "Reference" "U4"
-			(at 154.94 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SN74LVC1G3157"
-			(at 154.94 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39a64782-d0ed-4273-ae63-690ce60b4a94")
-		)
-		(pin "5"
-			(uuid "ed855edc-5519-4cf4-9130-b2c53d873a56")
-		)
-		(pin "3"
-			(uuid "271999ec-c1a6-493a-94ad-1ac95173b2c3")
-		)
-		(pin "4"
-			(uuid "e9b00516-e898-4b24-8d9a-fbad9e1ad912")
-		)
-		(pin "2"
-			(uuid "3b9b6ae2-ac23-472a-b09c-66bf8cfaac68")
-		)
-		(pin "6"
-			(uuid "57b9717c-50f9-4127-877f-6bf750bea529")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "U4")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 382.27 113.03 0)
 		(mirror y)
@@ -10568,7 +8679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aaf36940-24a8-4fe0-b135-0822123a67ae")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR028"
 			(at 382.27 116.84 0)
 			(effects
 				(font
@@ -10618,73 +8729,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 228.6 236.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af6e6abb-8c09-4a4a-bd4d-2c2b95c6cf90")
-		(property "Reference" "#PWR047"
-			(at 228.6 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 228.6 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 228.6 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5fd7e67c-6088-4970-b46c-316d538285ff")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR047")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -10699,7 +8744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "afff986c-d2fa-4253-ab9c-944f176e36dd")
-		(property "Reference" "JP6"
+		(property "Reference" "JP5"
 			(at 86.36 51.308 0)
 			(effects
 				(font
@@ -10716,7 +8761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
 			(at 86.36 53.34 0)
 			(effects
 				(font
@@ -10752,7 +8797,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "JP6")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -10842,7 +8887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b29d1f56-c62f-4dda-946a-034ac9e99a79")
-		(property "Reference" "U6"
+		(property "Reference" "U5"
 			(at 322.58 142.24 0)
 			(effects
 				(font
@@ -10858,7 +8903,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
 			(at 320.04 154.94 0)
 			(effects
 				(font
@@ -10906,7 +8951,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "U6")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -10922,7 +8967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3137752-9641-499d-9059-82a99beb7305")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 322.58 40.64 0)
 			(effects
 				(font
@@ -10938,7 +8983,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
 			(at 320.04 53.34 0)
 			(effects
 				(font
@@ -10986,7 +9031,7 @@
 		(instances
 			(project ""
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -11002,7 +9047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b611458a-5423-413f-ae84-be4d3870f851")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR026"
 			(at 248.92 115.57 0)
 			(effects
 				(font
@@ -11052,7 +9097,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR013")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -11067,7 +9112,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba1853a4-3a12-44b2-bcd5-d9891cc164c4")
-		(property "Reference" "JP3"
+		(property "Reference" "JP2"
 			(at 86.36 43.688 0)
 			(effects
 				(font
@@ -11084,7 +9129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
 			(at 86.36 45.72 0)
 			(effects
 				(font
@@ -11120,73 +9165,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 127 256.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba26f198-cf96-41ca-a321-aff255f0418c")
-		(property "Reference" "#PWR040"
-			(at 127 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 127 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e9d2ca7-0b91-452e-ad83-3cf060317669")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR040")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -11264,72 +9243,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 256.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "baa959de-d472-466d-b903-dd09e3d125cb")
-		(property "Reference" "#PWR046"
-			(at 203.2 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 203.2 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97d2493d-9d07-4adb-aa9b-889642e74950")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 46.99 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11338,7 +9251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd12a07e-8947-4e68-b24b-604129db2698")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR021"
 			(at 46.99 99.06 0)
 			(effects
 				(font
@@ -11388,210 +9301,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 68.58 229.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd6f0718-86d8-4aaa-b9a4-5dab7c2d3434")
-		(property "Reference" "#PWR018"
-			(at 68.58 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 68.58 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 68.58 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02c9935d-9e0f-4474-93e6-3b21368e4d26")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:NCP1117-5.0_SOT223")
-		(at 46.99 243.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0730b4e-9daa-4303-b222-6303bc1be7f5")
-		(property "Reference" "U1"
-			(at 46.99 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCP1117-5.0_SOT223"
-			(at 46.99 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 46.99 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
-			(at 49.53 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Low drop-out regulator, Fixed Output 5V, SOT-223"
-			(at 46.99 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8345a147-5c9c-4fae-87fa-63e20f4cbbad")
-		)
-		(pin "2"
-			(uuid "e840bfdd-027b-42fd-8fbf-a474f4ac7d5e")
-		)
-		(pin "3"
-			(uuid "fea1ed9d-b265-4a57-aa9a-09f126611979")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 25.4 254 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce42c5bc-e710-49cc-9704-9adbf9f2c158")
-		(property "Reference" "#PWR020"
-			(at 25.4 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 25.4 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "987647ee-0da0-4c74-86a7-4fc10bcfc662")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -11742,72 +9452,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 101.6 256.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7fbf192-1353-4efa-92f0-117debaa5fc4")
-		(property "Reference" "#PWR031"
-			(at 101.6 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea14ce76-9e7a-48d2-82e1-fec98c6d51f5")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 274.32 120.65 0)
 		(unit 1)
@@ -11872,72 +9516,6 @@
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 254 256.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ddff6fea-35a9-4f4b-8bc2-89047bc496c4")
-		(property "Reference" "#PWR050"
-			(at 254 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 254 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "67e53907-74c8-4f65-91d0-946c06a1cad5")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -12022,7 +9600,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfd7c6e2-7edd-4569-9028-4d0d4fc2f1a9")
-		(property "Reference" "JP4"
+		(property "Reference" "JP3"
 			(at 86.36 46.228 0)
 			(effects
 				(font
@@ -12039,7 +9617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
 			(at 86.36 48.26 0)
 			(effects
 				(font
@@ -12075,73 +9653,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "JP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 177.8 256.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0e871fb-4820-4ce7-ba0a-3f8450cf9c0b")
-		(property "Reference" "#PWR044"
-			(at 177.8 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 177.8 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a64d3e5a-7ec1-4aa8-9c10-a483c1996e5e")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR044")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -12158,7 +9670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e12219a9-2e7d-41df-b9a7-4bece83414d3")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR014"
 			(at 50.8 34.29 0)
 			(effects
 				(font
@@ -12208,7 +9720,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR029")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -12216,7 +9728,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 397.51 157.48 0)
+		(at 400.05 157.48 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12225,8 +9737,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6ab897a-251e-4ec0-abde-e8d634003a65")
-		(property "Reference" "#PWR019"
-			(at 397.51 163.83 0)
+		(property "Reference" "#PWR031"
+			(at 400.05 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12235,7 +9747,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 397.51 162.56 0)
+			(at 400.05 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12243,7 +9755,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 397.51 157.48 0)
+			(at 400.05 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12252,7 +9764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 397.51 157.48 0)
+			(at 400.05 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12261,7 +9773,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 397.51 157.48 0)
+			(at 400.05 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12275,73 +9787,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 203.2 236.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eae1d7e7-0a87-4b49-b91f-4b41788c3f8e")
-		(property "Reference" "#PWR045"
-			(at 203.2 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 203.2 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 203.2 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2840de7-4591-4008-828e-66156b717494")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR045")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -12427,7 +9873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2283be1-abef-4346-a0f7-e68cdfb00376")
-		(property "Reference" "U8"
+		(property "Reference" "U7"
 			(at 322.58 193.04 0)
 			(effects
 				(font
@@ -12443,7 +9889,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
 			(at 320.04 205.74 0)
 			(effects
 				(font
@@ -12491,7 +9937,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "U8")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -12507,7 +9953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5c9868a-9807-495d-aa39-7ce52021539b")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR018"
 			(at 210.82 78.74 0)
 			(effects
 				(font
@@ -12557,155 +10003,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Nick_IC:SN74LVC1G3157")
-		(at 177.8 246.38 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fa0152eb-b77f-478d-870f-545cd4f65ea3")
-		(property "Reference" "U5"
-			(at 180.34 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SN74LVC1G3157"
-			(at 180.34 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39a64782-d0ed-4273-ae63-690ce60b4a97")
-		)
-		(pin "5"
-			(uuid "5d0cb421-1d75-48de-b201-6c2c1c238f2e")
-		)
-		(pin "3"
-			(uuid "271999ec-c1a6-493a-94ad-1ac95173b2c6")
-		)
-		(pin "4"
-			(uuid "e9b00516-e898-4b24-8d9a-fbad9e1ad915")
-		)
-		(pin "2"
-			(uuid "b1951b9a-1725-4bfa-9b8b-e7f289648fdb")
-		)
-		(pin "6"
-			(uuid "57b9717c-50f9-4127-877f-6bf750bea52c")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "U5")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+7.5V")
-		(at 25.4 229.87 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc06f200-2094-4a43-b882-ebd733a7ea3a")
-		(property "Reference" "#PWR027"
-			(at 25.4 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+7.5V"
-			(at 25.4 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
-			(at 25.4 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15b0e323-86de-4ec3-b8ce-551bd5277fd0")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR027")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -12721,7 +10019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcb6e055-a1c1-4780-8dfc-b4c27accd85d")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 322.58 91.44 0)
 			(effects
 				(font
@@ -12737,7 +10035,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
 			(at 320.04 104.14 0)
 			(effects
 				(font
@@ -12785,7 +10083,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)

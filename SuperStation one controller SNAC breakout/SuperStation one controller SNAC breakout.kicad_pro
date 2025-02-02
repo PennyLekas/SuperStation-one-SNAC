@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 3.4,
+          "width": 1.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -581,11 +581,15 @@
     ],
     [
       "f156f76a-3de3-4cde-8fa6-723ea9336b7e",
-      "PS INPUT BREAKOUT"
+      "PS Input Breakout"
     ],
     [
       "fbfcc61c-380e-426e-8388-ba29034c9159",
       "SNAC"
+    ],
+    [
+      "9f4e6185-3dfc-4ab7-b065-b07efc3c4f4a",
+      "Power"
     ]
   ],
   "text_variables": {}

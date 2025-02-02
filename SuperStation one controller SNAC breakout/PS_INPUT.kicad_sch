@@ -1555,7 +1555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "034246f0-7742-4c9a-91ce-5bf29a21db6e")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR07"
 			(at 113.03 173.99 0)
 			(effects
 				(font
@@ -1605,7 +1605,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/f156f76a-3de3-4cde-8fa6-723ea9336b7e"
-					(reference "#PWR01")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -1622,7 +1622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f7d1415-076a-42a2-b841-ccb576fbe2f3")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR04"
 			(at 163.83 99.06 0)
 			(effects
 				(font
@@ -1672,7 +1672,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/f156f76a-3de3-4cde-8fa6-723ea9336b7e"
-					(reference "#PWR035")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1689,7 +1689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cca158a-267f-4f7f-ad95-16ee5190137e")
-		(property "Reference" "J6"
+		(property "Reference" "J4"
 			(at 172.72 189.2299 0)
 			(effects
 				(font
@@ -1707,7 +1707,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S8B-PH-SM4-TB_1x08-1MP_P2.00mm_Horizontal"
 			(at 171.45 190.5 0)
 			(effects
 				(font
@@ -1764,7 +1764,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/f156f76a-3de3-4cde-8fa6-723ea9336b7e"
-					(reference "J6")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1781,7 +1781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f045b26-00ac-41c4-b7ba-dbdc9b15e0c6")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR012"
 			(at 162.56 215.9 0)
 			(effects
 				(font
@@ -1831,7 +1831,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/f156f76a-3de3-4cde-8fa6-723ea9336b7e"
-					(reference "#PWR026")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -1848,7 +1848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97f42817-da34-40ca-9794-2660ba7a0702")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR02"
 			(at 123.19 96.52 0)
 			(effects
 				(font
@@ -1898,7 +1898,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/f156f76a-3de3-4cde-8fa6-723ea9336b7e"
-					(reference "#PWR032")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1915,7 +1915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a026be46-cd80-4b5e-947d-8fa6e4980a71")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR08"
 			(at 123.19 173.99 0)
 			(effects
 				(font
@@ -1965,7 +1965,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/f156f76a-3de3-4cde-8fa6-723ea9336b7e"
-					(reference "#PWR03")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -1982,7 +1982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a552d99f-47b5-41d7-a706-a863e5bff70f")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR06"
 			(at 163.83 138.43 0)
 			(effects
 				(font
@@ -2032,7 +2032,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/f156f76a-3de3-4cde-8fa6-723ea9336b7e"
-					(reference "#PWR036")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2048,7 +2048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adf9d0fa-9ca3-4e3f-8fe5-bc84952b569e")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR01"
 			(at 113.03 96.52 0)
 			(effects
 				(font
@@ -2098,7 +2098,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/f156f76a-3de3-4cde-8fa6-723ea9336b7e"
-					(reference "#PWR028")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2115,7 +2115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4356b3b-878d-4a85-b5f7-6a12598f88ff")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR010"
 			(at 163.83 176.53 0)
 			(effects
 				(font
@@ -2165,7 +2165,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/f156f76a-3de3-4cde-8fa6-723ea9336b7e"
-					(reference "#PWR025")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2182,7 +2182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b49ab200-9c24-4fd9-bc1c-6f6e56c826ff")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 172.72 111.7599 0)
 			(effects
 				(font
@@ -2200,7 +2200,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S8B-PH-SM4-TB_1x08-1MP_P2.00mm_Horizontal"
 			(at 171.45 113.03 0)
 			(effects
 				(font
@@ -2257,7 +2257,7 @@
 		(instances
 			(project ""
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/f156f76a-3de3-4cde-8fa6-723ea9336b7e"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2273,7 +2273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b82ef742-6a9c-4a2e-9acd-968923c7e37a")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR03"
 			(at 152.4 99.06 0)
 			(effects
 				(font
@@ -2323,7 +2323,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/f156f76a-3de3-4cde-8fa6-723ea9336b7e"
-					(reference "#PWR034")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2339,7 +2339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9f3bfe4-eab3-4cda-b477-d9677e52e91d")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR09"
 			(at 152.4 176.53 0)
 			(effects
 				(font
@@ -2389,7 +2389,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/f156f76a-3de3-4cde-8fa6-723ea9336b7e"
-					(reference "#PWR024")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2406,7 +2406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0434ea8-73e1-400c-8e42-92db8d09e70e")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 111.76 190.4999 0)
 			(effects
 				(font
@@ -2424,7 +2424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
 			(at 123.19 177.8 0)
 			(effects
 				(font
@@ -2481,7 +2481,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/f156f76a-3de3-4cde-8fa6-723ea9336b7e"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -2498,7 +2498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc76863e-db7f-4ebe-a1d1-bf1c211f203f")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR011"
 			(at 118.11 215.9 0)
 			(effects
 				(font
@@ -2548,7 +2548,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/f156f76a-3de3-4cde-8fa6-723ea9336b7e"
-					(reference "#PWR033")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2583,7 +2583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
 			(at 123.19 100.33 0)
 			(effects
 				(font
@@ -2657,7 +2657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d60109d0-991a-4b77-90ac-6e4748b6a49f")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR05"
 			(at 118.11 138.43 0)
 			(effects
 				(font
@@ -2707,7 +2707,7 @@
 		(instances
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/f156f76a-3de3-4cde-8fa6-723ea9336b7e"
-					(reference "#PWR023")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
