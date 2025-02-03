@@ -6951,6 +6951,75 @@
 		(uuid "f380323b-dd13-4b2e-a0ce-87bcfe7c726c")
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 402.59 208.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "003b6545-b006-437c-ab61-519afea3c3c5")
+		(property "Reference" "J12"
+			(at 402.336 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 410.972 206.756 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 402.59 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 402.59 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 402.59 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c86232df-4a85-4fef-83c5-ed190e9fb46d")
+		)
+		(pin "2"
+			(uuid "0c5e4760-af58-4ef3-b103-feaff3c63acd")
+		)
+		(instances
+			(project "SuperStation one controller SNAC breakout"
+				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 248.92 111.76 0)
 		(unit 1)
@@ -8852,76 +8921,6 @@
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 400.05 208.28 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7273da11-62b6-4721-b832-dd890edb3fc9")
-		(property "Reference" "J12"
-			(at 403.86 210.1851 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 403.352 213.106 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 400.05 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 400.05 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 400.05 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b68fdbe8-a804-40f9-9fa4-b67d999c2e79")
-		)
-		(pin "2"
-			(uuid "37842ace-8cfc-4479-9da1-52a208ab2946")
-		)
-		(instances
-			(project ""
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "J12")
 					(unit 1)
 				)
 			)
