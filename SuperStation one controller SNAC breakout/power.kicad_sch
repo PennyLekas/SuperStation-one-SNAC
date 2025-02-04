@@ -477,7 +477,10 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:NCP1117-5.0_SOT223"
+		(symbol "Regulator_Linear:XC6206PxxxMR"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -489,7 +492,7 @@
 					)
 				)
 			)
-			(property "Value" "NCP1117-5.0_SOT223"
+			(property "Value" "XC6206PxxxMR"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -498,25 +501,17 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 0 5.08 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+				(at 0 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
-				(at 2.54 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1A Low drop-out regulator, Fixed Output 5V, SOT-223"
+			(property "Datasheet" "https://www.torexsemi.com/file/xc6206/XC6206.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -525,7 +520,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "REGULATOR LDO 5V"
+			(property "Description" "Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -534,7 +529,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?223*TabPin2*"
+			(property "ki_keywords" "Torex LDO Voltage Regulator Fixed Positive"
 				(at 0 0 0)
 				(effects
 					(font
@@ -543,10 +538,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "NCP1117-5.0_SOT223_0_1"
+			(property "ki_fp_filters" "SOT?23?3*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XC6206PxxxMR_0_1"
 				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -556,7 +560,7 @@
 					)
 				)
 			)
-			(symbol "NCP1117-5.0_SOT223_1_1"
+			(symbol "XC6206PxxxMR_1_1"
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -1529,6 +1533,78 @@
 			(project "SuperStation one controller SNAC breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/9f4e6185-3dfc-4ab7-b065-b07efc3c4f4a"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:XC6206PxxxMR")
+		(at 66.04 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23c47f9a-ad79-4333-a06c-dddb2f421e7b")
+		(property "Reference" "U9"
+			(at 66.04 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XC6206P332MR"
+			(at 66.04 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 66.04 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.torexsemi.com/file/xc6206/XC6206.pdf"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4f13f96-9fc2-4450-ba67-49ade1c7a3b9")
+		)
+		(pin "2"
+			(uuid "3356b954-ef32-41bf-ad64-19576330dab8")
+		)
+		(pin "3"
+			(uuid "f66be08f-4716-4ba5-b9a6-118e562f4f15")
+		)
+		(instances
+			(project ""
+				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/9f4e6185-3dfc-4ab7-b065-b07efc3c4f4a"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -2589,77 +2665,6 @@
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/9f4e6185-3dfc-4ab7-b065-b07efc3c4f4a"
 					(reference "U4")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:NCP1117-5.0_SOT223")
-		(at 66.04 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a54b2d1d-9a69-4404-92ad-e646545f6b99")
-		(property "Reference" "U8"
-			(at 66.04 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCP1117-5.0_SOT223"
-			(at 66.04 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 66.04 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
-			(at 68.58 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Low drop-out regulator, Fixed Output 5V, SOT-223"
-			(at 66.04 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6675d09-7295-41b6-92fb-9382d627b779")
-		)
-		(pin "2"
-			(uuid "d652aea5-e947-46e1-9073-8b212e7671d9")
-		)
-		(pin "3"
-			(uuid "18e8cfb1-21cf-46fa-a9f9-6cfe08e9d08f")
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/9f4e6185-3dfc-4ab7-b065-b07efc3c4f4a"
-					(reference "U8")
-					(unit 1)
 				)
 			)
 		)
