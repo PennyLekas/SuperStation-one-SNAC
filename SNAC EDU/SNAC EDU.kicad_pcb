@@ -2225,7 +2225,7 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q2"
-			(at 1.65 1.25 0)
+			(at 1.7 1.3 0)
 			(layer "F.SilkS")
 			(uuid "838af475-eee1-4016-9cba-cbfdc95c8aca")
 			(effects
@@ -2938,7 +2938,7 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q3"
-			(at 1.65 1.3 0)
+			(at 1.7 1.3 0)
 			(layer "F.SilkS")
 			(uuid "9ef334e8-304c-4a00-89bf-7f30fb168259")
 			(effects
@@ -3415,7 +3415,7 @@
 		(descr "TSOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSOT TO_SOT_SMD")
 		(property "Reference" "U5"
-			(at 3.3125 0.075 0)
+			(at 3.25 0 0)
 			(layer "F.SilkS")
 			(uuid "4c11d0d9-44ca-476f-a632-6e2af55db18b")
 			(effects
@@ -3708,7 +3708,7 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q1"
-			(at 1.7 1.275 0)
+			(at 1.7 1.3 0)
 			(layer "F.SilkS")
 			(uuid "2a0b7548-cb61-41b0-a7a7-8a4dbe6c2022")
 			(effects
@@ -5258,7 +5258,7 @@
 		(descr "TSOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSOT TO_SOT_SMD")
 		(property "Reference" "U7"
-			(at 3.2875 0.025 0)
+			(at 3.25 0 0)
 			(layer "F.SilkS")
 			(uuid "387d72e4-151d-44fa-92c4-10c2c4382fe7")
 			(effects
@@ -5551,7 +5551,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J6"
-			(at 0 -2.33 90)
+			(at 0.025 4.725 90)
 			(layer "F.SilkS")
 			(uuid "d2686eb4-c3fd-4b00-bb6c-07c7d0280042")
 			(effects
@@ -5818,7 +5818,7 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q7"
-			(at 1.725 1.3 0)
+			(at 1.7 1.3 0)
 			(layer "F.SilkS")
 			(uuid "609b4d98-0cd6-4c4f-87fc-2f53258c657c")
 			(effects
@@ -6721,7 +6721,7 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q4"
-			(at 1.65 1.275 0)
+			(at 1.7 1.3 0)
 			(layer "F.SilkS")
 			(uuid "d1cd6212-20e0-4f83-bb58-d5647668d42b")
 			(effects
@@ -6985,7 +6985,7 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q6"
-			(at 1.675 1.325 0)
+			(at 1.7 1.3 0)
 			(layer "F.SilkS")
 			(uuid "c80cce74-5160-4788-896d-e6485c12d7da")
 			(effects
@@ -8026,7 +8026,7 @@
 		(descr "TSOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSOT TO_SOT_SMD")
 		(property "Reference" "U4"
-			(at 3.9625 -0.225 0)
+			(at 3.25 0 0)
 			(layer "F.SilkS")
 			(uuid "2adff003-7297-4b1c-a806-a3c5ae646fa7")
 			(effects
@@ -8319,7 +8319,7 @@
 		(descr "TSOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSOT TO_SOT_SMD")
 		(property "Reference" "U1"
-			(at 3.1875 -0.025 0)
+			(at 3.25 0 0)
 			(layer "F.SilkS")
 			(uuid "2b8b5f1e-e93b-4873-b34e-bbbfce7aa470")
 			(effects
@@ -9010,7 +9010,7 @@
 		(descr "TSOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSOT TO_SOT_SMD")
 		(property "Reference" "U2"
-			(at 3.3375 -0.025 0)
+			(at 3.25 0 0)
 			(layer "F.SilkS")
 			(uuid "ee7334c8-5821-4007-999b-7c3bf8bfedbc")
 			(effects
@@ -10729,7 +10729,7 @@
 		(descr "TSOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSOT TO_SOT_SMD")
 		(property "Reference" "U3"
-			(at 4.2875 0.375 0)
+			(at 3.25 0 0)
 			(layer "F.SilkS")
 			(uuid "1ea07464-e1a1-4b75-ade6-e9c6b8dded8c")
 			(effects
@@ -11023,7 +11023,7 @@
 		(descr "JST PH series connector, S9B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH horizontal")
 		(property "Reference" "J2"
-			(at 0 -5.8 90)
+			(at 11.175 -6.55 90)
 			(layer "F.SilkS")
 			(uuid "1cf0b30b-c2ed-4892-ad43-7934f89c5558")
 			(effects
@@ -11469,7 +11469,7 @@
 		(descr "JST PH series connector, S9B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH horizontal")
 		(property "Reference" "J1"
-			(at 0 -5.8 -90)
+			(at -11.375 -6.35 -90)
 			(layer "F.SilkS")
 			(uuid "0e2e8b66-0b4c-4a67-b92c-b6972981b641")
 			(effects
@@ -11914,7 +11914,7 @@
 		(descr "TSOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSOT TO_SOT_SMD")
 		(property "Reference" "U6"
-			(at 3.1375 0.15 0)
+			(at 3.25 0 0)
 			(layer "F.SilkS")
 			(uuid "e5e4ff3e-aeb0-4aee-969e-46655e1732fb")
 			(effects
@@ -13162,13 +13162,68 @@
 		(uuid "cc30fe43-5a72-483f-b06d-9f5dd0f711e6")
 	)
 	(gr_text "JLCJLCJLCJLC"
-		(at 127.85 136.425 90)
+		(at 127.725 112.525 90)
 		(layer "F.SilkS")
 		(uuid "08fbe52d-f6d3-4932-a25f-0549a5c9f2fb")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "5"
+		(at 164.25 107 0)
+		(layer "F.SilkS")
+		(uuid "1b8fba86-3d4b-44c0-abed-3a79dcbd3e44")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+		)
+	)
+	(gr_text "P2"
+		(at 136.3 136.625 90)
+		(layer "F.SilkS")
+		(uuid "209993d3-90a1-4897-9050-7be47c21c447")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+		)
+	)
+	(gr_text "3"
+		(at 159.17 107 0)
+		(layer "F.SilkS")
+		(uuid "44e66d8e-eaa5-449d-820f-fa3021130239")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+		)
+	)
+	(gr_text "G"
+		(at 151.55 107 0)
+		(layer "F.SilkS")
+		(uuid "498d7704-9af0-4f90-b440-24177cc3358f")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+		)
+	)
+	(gr_text "7"
+		(at 169.33 107 0)
+		(layer "F.SilkS")
+		(uuid "5ddbbbf2-3f8d-406c-a031-8d381003d5b3")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
 			)
 		)
 	)
@@ -13182,6 +13237,73 @@
 				(thickness 0.2)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "1"
+		(at 154.09 107 0)
+		(layer "F.SilkS")
+		(uuid "93adb311-49c1-4046-a869-3ed698690441")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+		)
+	)
+	(gr_text "6"
+		(at 166.79 107 0)
+		(layer "F.SilkS")
+		(uuid "9991a5e6-04bf-4b72-a945-7a74788b8578")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+		)
+	)
+	(gr_text "P1"
+		(at 136.3 113.375 90)
+		(layer "F.SilkS")
+		(uuid "9ff76152-04ea-41df-8906-eac07dbed5a1")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+		)
+	)
+	(gr_text "4"
+		(at 161.71 107 0)
+		(layer "F.SilkS")
+		(uuid "b9d8116f-3d73-4473-957b-ab2bcf23c2fc")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+		)
+	)
+	(gr_text "OPEN = 5V\nCLOSED = 3.3V"
+		(at 168.925 125.325 90)
+		(layer "F.SilkS")
+		(uuid "cea6dd50-e731-4609-8d3a-39b3424b3741")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "2"
+		(at 156.63 107 0)
+		(layer "F.SilkS")
+		(uuid "d923077e-3a0f-446e-ae6d-eaeef47e9b74")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
 		)
 	)
 	(gr_text "HV\n"
@@ -13314,6 +13436,15 @@
 		(uuid "146cfda7-a8cf-4545-8389-88ba50abbd12")
 	)
 	(via
+		(at 176.35 115.2)
+		(size 0.7)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "14ad739b-a327-4156-972c-2447e8e890f5")
+	)
+	(via
 		(at 157.275 127.2)
 		(size 0.7)
 		(drill 0.3)
@@ -13411,6 +13542,15 @@
 		(free yes)
 		(net 1)
 		(uuid "2abd7b16-dd30-44e4-990f-54af41cdc86c")
+	)
+	(via
+		(at 175.25 116.425)
+		(size 0.7)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "2b7f2e93-3050-48ce-9907-c0720ec566c6")
 	)
 	(via
 		(at 161.6 141.025)
@@ -13926,6 +14066,15 @@
 		(uuid "7a99d4e7-860b-40dd-8df5-52b5d221f66d")
 	)
 	(via
+		(at 177.325 115.2)
+		(size 0.7)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "7ca7a6cc-e610-4aeb-8011-dd54ae689d6f")
+	)
+	(via
 		(at 138.375 134.45)
 		(size 0.7)
 		(drill 0.3)
@@ -14176,6 +14325,15 @@
 		(free yes)
 		(net 1)
 		(uuid "96d89bad-ff35-48de-ac02-bf0904f44cf3")
+	)
+	(via
+		(at 175.25 117.875)
+		(size 0.7)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "9a4859ce-1b3e-465f-ba79-45e51c6b3454")
 	)
 	(via
 		(at 159.05 118.85)
@@ -14455,6 +14613,15 @@
 		(free yes)
 		(net 1)
 		(uuid "c0bec3b7-3d48-4b45-bb1f-57b3342c654c")
+	)
+	(via
+		(at 177.3 117.875)
+		(size 0.7)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "c1aac79f-aed8-4fe5-976f-6e4878e2732e")
 	)
 	(via
 		(at 182.375 140.45)
@@ -14788,6 +14955,24 @@
 		(free yes)
 		(net 1)
 		(uuid "fa71fae8-16fd-4ba1-b8a2-b543f0703eb9")
+	)
+	(via
+		(at 177.35 116.425)
+		(size 0.7)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "fc410d35-a242-4632-bde7-52a247258251")
+	)
+	(via
+		(at 176.275 117.875)
+		(size 0.7)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "fe7bf73f-0527-44b4-985e-3dec07e0922f")
 	)
 	(segment
 		(start 173.2 125.275)
@@ -21488,12 +21673,12 @@
 				(xy 148.789267 107.155146) (xy 148.789265 107.155145) (xy 148.661594 107.128008) (xy 148.614391 107.117975)
 				(xy 148.4995 107.117975) (xy 148.432461 107.09829) (xy 148.386706 107.045486) (xy 148.3755 106.993975)
 				(xy 148.3755 106.273962) (xy 148.395185 106.206923) (xy 148.407351 106.190989) (xy 148.441859 106.152665)
-				(xy 148.53125 105.997835) (xy 148.586497 105.827803) (xy 148.586498 105.827787) (xy 148.586965 105.825594)
-				(xy 148.587592 105.824431) (xy 148.588505 105.821623) (xy 148.589018 105.821789) (xy 148.62015 105.764108)
-				(xy 148.681309 105.730323) (xy 148.751024 105.734967) (xy 148.79594 105.763678) (xy 151.81521 108.782948)
-				(xy 151.815214 108.782951) (xy 151.938128 108.86508) (xy 151.938141 108.865087) (xy 152.074712 108.921656)
-				(xy 152.074717 108.921658) (xy 152.074721 108.921658) (xy 152.074722 108.921659) (xy 152.219709 108.9505)
-				(xy 152.219712 108.9505) (xy 152.367547 108.9505) (xy 172.31277 108.9505) (xy 172.379809 108.970185)
+				(xy 148.53125 105.997835) (xy 148.586497 105.827803) (xy 148.586498 105.827792) (xy 148.586969 105.82558)
+				(xy 148.587597 105.824415) (xy 148.588505 105.821623) (xy 148.589015 105.821788) (xy 148.620161 105.764098)
+				(xy 148.681323 105.73032) (xy 148.751038 105.734972) (xy 148.795941 105.763678) (xy 151.710679 108.678416)
+				(xy 151.783476 108.751213) (xy 151.815215 108.782952) (xy 151.938128 108.86508) (xy 151.938141 108.865087)
+				(xy 152.074712 108.921656) (xy 152.074717 108.921658) (xy 152.074721 108.921658) (xy 152.074722 108.921659)
+				(xy 152.219709 108.9505) (xy 152.219712 108.9505) (xy 172.31277 108.9505) (xy 172.379809 108.970185)
 				(xy 172.400451 108.986819) (xy 175.272049 111.858416) (xy 175.326429 111.912796) (xy 175.376585 111.962952)
 				(xy 175.499498 112.04508) (xy 175.499511 112.045087) (xy 175.599311 112.086425) (xy 175.636087 112.101658)
 				(xy 175.636091 112.101658) (xy 175.636092 112.101659) (xy 175.781079 112.1305) (xy 175.781082 112.1305)
