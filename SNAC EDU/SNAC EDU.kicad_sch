@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "cbd92933-d20e-42b7-906c-813e5f34c94a")
-	(paper "B")
+	(paper "A")
 	(lib_symbols)
 	(sheet
 		(at 52.07 59.69)
@@ -36,47 +36,9 @@
 			)
 		)
 		(instances
-			(project "SuperStation one controller SNAC breakout"
+			(project "SNAC EDU"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 52.07 35.56)
-		(size 12.7 3.81)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f156f76a-3de3-4cde-8fa6-723ea9336b7e")
-		(property "Sheetname" "PS Input Breakout"
-			(at 52.07 34.8484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "PS_Input.kicad_sch"
-			(at 52.07 39.9546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "SuperStation one controller SNAC breakout"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a"
-					(page "2")
 				)
 			)
 		)
@@ -112,7 +74,7 @@
 			)
 		)
 		(instances
-			(project "SuperStation one controller SNAC breakout"
+			(project "SNAC EDU"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a"
 					(page "3")
 				)
