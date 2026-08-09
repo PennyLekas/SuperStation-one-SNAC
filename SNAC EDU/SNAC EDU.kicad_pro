@@ -719,7 +719,7 @@
       {
         "filename": "SNAC EDU.kicad_sch",
         "name": "SNAC EDU",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "cbd92933-d20e-42b7-906c-813e5f34c94a"
       }
     ],
     "used_designators": "",
@@ -728,7 +728,7 @@
   "sheets": [
     [
       "cbd92933-d20e-42b7-906c-813e5f34c94a",
-      "Root"
+      "SNAC EDU"
     ],
     [
       "fbfcc61c-380e-426e-8388-ba29034c9159",
