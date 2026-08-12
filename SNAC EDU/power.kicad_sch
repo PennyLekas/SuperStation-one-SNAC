@@ -1110,7 +1110,7 @@
 		)
 		(uuid "832b9628-bb8c-484e-a56f-a46cb393e6cb")
 	)
-	(text "MUX POWER"
+	(text "ANALOG SWITCH POWER"
 		(exclude_from_sim no)
 		(at 271.272 36.576 0)
 		(effects
@@ -3646,7 +3646,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)

@@ -2087,62 +2087,62 @@
 		(uuid "3cffbf00-9785-4d83-ae20-dd9d1b82ae16")
 	)
 	(junction
-		(at 193.04 124.46)
+		(at 195.58 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "369059ef-9841-453b-be0c-56259d767cbd")
+		(uuid "28433c53-f2d5-47f3-99f9-ebadf4e1d780")
 	)
 	(junction
-		(at 200.66 116.84)
+		(at 220.98 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6d399112-b58e-4304-8e59-407e0074b564")
+		(uuid "52beb199-9bfb-41b7-97b8-dcfe3e41ff65")
 	)
 	(junction
-		(at 195.58 121.92)
+		(at 182.88 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "76540070-692d-4f85-98ff-ae9f28715e13")
+		(uuid "577f01b0-81f2-4fb1-a4f7-d58de5df1ff1")
+	)
+	(junction
+		(at 190.5 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dfe2835-15b7-46e3-ae14-384f4d1330f1")
+	)
+	(junction
+		(at 180.34 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73d42395-c06b-4143-9173-c4431f79407e")
+	)
+	(junction
+		(at 193.04 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81afc00f-8d95-4e92-9055-84a0f2144c1b")
+	)
+	(junction
+		(at 185.42 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb66f049-b868-4f76-acf1-0523599ea4ad")
 	)
 	(junction
 		(at 220.98 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "89dbd26e-4f8e-4bb7-927e-05ccdc674c97")
+		(uuid "ed4f6f0b-c9f0-4515-891e-563306a05f2c")
 	)
 	(junction
-		(at 220.98 139.7)
+		(at 187.96 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "96cef104-34e9-474e-b35b-c3cf3e669bdf")
-	)
-	(junction
-		(at 190.5 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b68a0268-530f-4844-b3ba-70047740061c")
-	)
-	(junction
-		(at 185.42 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb888151-2070-4865-92d4-2ff8307a1a04")
-	)
-	(junction
-		(at 198.12 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9f3ccf3-d372-436b-9e85-0d7feab978c4")
-	)
-	(junction
-		(at 187.96 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8041533-997c-49b3-a0a5-fdf30a87bca1")
+		(uuid "f7d86722-8e83-448b-9e00-23767094b07f")
 	)
 	(wire
 		(pts
-			(xy 190.5 101.6) (xy 190.5 116.84)
+			(xy 195.58 101.6) (xy 195.58 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2202,7 +2202,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 129.54) (xy 187.96 129.54)
+			(xy 149.86 129.54) (xy 182.88 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2222,6 +2222,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 121.92) (xy 215.9 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "214e4a6f-801f-42ab-9b6e-a34a7e801bbb")
+	)
+	(wire
+		(pts
 			(xy 215.9 76.2) (xy 213.36 76.2)
 		)
 		(stroke
@@ -2232,33 +2242,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 116.84) (xy 200.66 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25c7a4fa-0c22-4d35-bf17-3a48958f30c5")
-	)
-	(wire
-		(pts
-			(xy 184.15 73.66) (xy 184.15 83.82)
+			(xy 185.42 73.66) (xy 185.42 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "26a85d13-3206-4d1b-aa07-57edd72847e3")
-	)
-	(wire
-		(pts
-			(xy 187.96 129.54) (xy 215.9 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26ae9c54-cefe-4df5-aa86-4a3d1d9b84c6")
 	)
 	(wire
 		(pts
@@ -2282,7 +2272,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 177.8) (xy 193.04 124.46)
+			(xy 187.96 177.8) (xy 187.96 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2342,7 +2332,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 185.42) (xy 185.42 185.42)
+			(xy 215.9 185.42) (xy 180.34 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2352,7 +2342,17 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 185.42) (xy 185.42 132.08)
+			(xy 185.42 127) (xy 215.9 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "507e2266-90a1-4130-a2d1-fc1246cf90d2")
+	)
+	(wire
+		(pts
+			(xy 180.34 185.42) (xy 180.34 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2362,7 +2362,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 93.98) (xy 184.15 96.52)
+			(xy 185.42 91.44) (xy 185.42 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2382,7 +2382,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 88.9) (xy 187.96 88.9)
+			(xy 193.04 86.36) (xy 189.23 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2392,7 +2392,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 121.92) (xy 195.58 121.92)
+			(xy 149.86 121.92) (xy 190.5 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2412,7 +2412,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 119.38) (xy 184.15 119.38)
+			(xy 149.86 119.38) (xy 185.42 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2422,7 +2422,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 182.88) (xy 187.96 129.54)
+			(xy 182.88 182.88) (xy 182.88 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2432,27 +2432,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 132.08) (xy 215.9 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "788059aa-bd99-427b-b4d1-a908c9c910b7")
-	)
-	(wire
-		(pts
-			(xy 190.5 127) (xy 215.9 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78d7be0a-a596-4eee-953c-347168c642f1")
-	)
-	(wire
-		(pts
-			(xy 200.66 170.18) (xy 200.66 116.84)
+			(xy 195.58 170.18) (xy 195.58 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2462,7 +2442,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 172.72) (xy 198.12 172.72)
+			(xy 215.9 172.72) (xy 193.04 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2492,7 +2472,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 124.46) (xy 193.04 124.46)
+			(xy 149.86 124.46) (xy 187.96 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2502,7 +2482,17 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 101.6) (xy 190.5 101.6)
+			(xy 182.88 129.54) (xy 215.9 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84e1463b-fc5e-48d2-bc45-3dcfbe0d7cb5")
+	)
+	(wire
+		(pts
+			(xy 189.23 101.6) (xy 195.58 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2512,7 +2502,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 83.82) (xy 220.98 87.63)
+			(xy 220.98 83.82) (xy 220.98 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2522,7 +2512,17 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 182.88) (xy 187.96 182.88)
+			(xy 220.98 139.7) (xy 220.98 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f2d412d-3845-4359-900a-66906ba458cc")
+	)
+	(wire
+		(pts
+			(xy 215.9 182.88) (xy 182.88 182.88)
 		)
 		(stroke
 			(width 0)
@@ -2542,7 +2542,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 170.18) (xy 200.66 170.18)
+			(xy 215.9 170.18) (xy 195.58 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2552,17 +2552,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 139.7) (xy 220.98 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0528b59-dc12-419e-b907-8907e0f6baab")
-	)
-	(wire
-		(pts
-			(xy 195.58 175.26) (xy 195.58 121.92)
+			(xy 190.5 175.26) (xy 190.5 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2572,7 +2562,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 73.66) (xy 184.15 73.66)
+			(xy 215.9 73.66) (xy 185.42 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2582,7 +2572,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 134.62) (xy 213.36 139.7)
+			(xy 213.36 134.62) (xy 213.36 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2592,7 +2582,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 139.7) (xy 220.98 139.7)
+			(xy 213.36 142.24) (xy 220.98 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2612,17 +2602,17 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 124.46) (xy 215.9 124.46)
+			(xy 195.58 116.84) (xy 215.9 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9a5cf45-1b26-4f29-a25d-ec5e31afc11f")
+		(uuid "ac4a2dbe-e9c3-49b8-9c29-6d0894ef8f76")
 	)
 	(wire
 		(pts
-			(xy 215.9 180.34) (xy 190.5 180.34)
+			(xy 215.9 180.34) (xy 185.42 180.34)
 		)
 		(stroke
 			(width 0)
@@ -2632,27 +2622,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 116.84) (xy 215.9 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b012b74d-f960-4342-b1e3-66e82e6b6cf9")
-	)
-	(wire
-		(pts
-			(xy 195.58 121.92) (xy 215.9 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b75fdd7f-a7b0-4fc6-b980-6fc1c7d785db")
-	)
-	(wire
-		(pts
-			(xy 193.04 119.38) (xy 193.04 88.9)
+			(xy 193.04 119.38) (xy 193.04 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2662,7 +2632,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 180.34) (xy 190.5 127)
+			(xy 185.42 180.34) (xy 185.42 127)
 		)
 		(stroke
 			(width 0)
@@ -2672,7 +2642,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 172.72) (xy 198.12 119.38)
+			(xy 193.04 172.72) (xy 193.04 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2682,7 +2652,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 119.38) (xy 193.04 119.38)
+			(xy 193.04 119.38) (xy 215.9 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2692,13 +2662,13 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 119.38) (xy 198.12 119.38)
+			(xy 220.98 142.24) (xy 220.98 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf3f5956-de2f-4c24-806c-847aa875f6ab")
+		(uuid "c6b48919-7420-45a5-b670-857922ca22a5")
 	)
 	(wire
 		(pts
@@ -2732,13 +2702,23 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 132.08) (xy 185.42 132.08)
+			(xy 149.86 132.08) (xy 180.34 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "daa372b7-9f0f-4618-879b-7356a40ebc27")
+	)
+	(wire
+		(pts
+			(xy 180.34 132.08) (xy 215.9 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbdbf9ae-5227-4979-8cc2-a9cc76684d98")
 	)
 	(wire
 		(pts
@@ -2752,7 +2732,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 175.26) (xy 195.58 175.26)
+			(xy 215.9 175.26) (xy 190.5 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2772,7 +2752,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 177.8) (xy 193.04 177.8)
+			(xy 215.9 177.8) (xy 187.96 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2792,7 +2772,17 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 106.68) (xy 184.15 119.38)
+			(xy 187.96 124.46) (xy 215.9 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f89af7ae-d2bb-423d-a96c-12e02be8c557")
+	)
+	(wire
+		(pts
+			(xy 185.42 106.68) (xy 185.42 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2802,7 +2792,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 127) (xy 190.5 127)
+			(xy 149.86 127) (xy 185.42 127)
 		)
 		(stroke
 			(width 0)
@@ -2979,8 +2969,8 @@
 			)
 		)
 	)
-	(label "LV3"
-		(at 201.93 127 0)
+	(label "ACK"
+		(at 199.39 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2989,8 +2979,8 @@
 		)
 		(uuid "03f5edbc-8db7-48be-8959-294d91dd09fe")
 	)
-	(label "LV1"
-		(at 201.93 129.54 0)
+	(label "CMD"
+		(at 199.39 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2999,8 +2989,8 @@
 		)
 		(uuid "2e04f97c-e0b3-477e-aa15-bb54764da18a")
 	)
-	(label "LV6"
-		(at 201.93 121.92 0)
+	(label "CLK"
+		(at 199.39 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3009,8 +2999,8 @@
 		)
 		(uuid "2e5e6f98-d12a-410b-bdb5-c4a6999ee7a6")
 	)
-	(label "LV5"
-		(at 201.93 124.46 0)
+	(label "DAT"
+		(at 199.39 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3019,8 +3009,8 @@
 		)
 		(uuid "351464d5-6cd3-4445-8785-fd7263761731")
 	)
-	(label "LV2"
-		(at 201.93 116.84 0)
+	(label "ATT1"
+		(at 199.39 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3029,8 +3019,8 @@
 		)
 		(uuid "48fa3451-dba5-4933-96f0-44142e9c3449")
 	)
-	(label "LV4"
-		(at 201.93 119.38 0)
+	(label "ATT2"
+		(at 199.39 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3039,7 +3029,7 @@
 		)
 		(uuid "6463792a-7e51-4f50-b565-fb8ace4ddb7e")
 	)
-	(label "LV2_4"
+	(label "ATT1_2"
 		(at 162.56 119.38 0)
 		(effects
 			(font
@@ -3049,8 +3039,8 @@
 		)
 		(uuid "8e1fb7ff-a8b3-43ac-a95a-07f9a0cc6778")
 	)
-	(label "LV7"
-		(at 201.93 132.08 0)
+	(label "IRQ10"
+		(at 199.39 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3129,7 +3119,7 @@
 			(uuid "961e7602-e745-4ec0-9e63-c559d7ad4950")
 		)
 		(instances
-			(project "PS1 controller breakout"
+			(project "PSX controller breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a"
 					(reference "#PWR013")
 					(unit 1)
@@ -3139,7 +3129,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 143.51 0)
+		(at 220.98 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3150,7 +3140,7 @@
 		(fields_autoplaced yes)
 		(uuid "0731fe60-fe65-4f19-b5ea-ae030522b990")
 		(property "Reference" "#PWR07"
-			(at 220.98 149.86 0)
+			(at 220.98 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3161,7 +3151,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 148.59 0)
+			(at 220.98 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3171,7 +3161,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 143.51 0)
+			(at 220.98 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3182,7 +3172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 143.51 0)
+			(at 220.98 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3193,7 +3183,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 143.51 0)
+			(at 220.98 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3207,7 +3197,7 @@
 			(uuid "214fb711-a70b-4096-a258-65baab3bcf55")
 		)
 		(instances
-			(project "PS1 controller breakout"
+			(project "PSX controller breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a"
 					(reference "#PWR07")
 					(unit 1)
@@ -3298,7 +3288,7 @@
 			(uuid "f57546c3-c806-4880-bb6a-3dbc2e9cd0cb")
 		)
 		(instances
-			(project "PS1 controller breakout"
+			(project "PSX controller breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a"
 					(reference "J3")
 					(unit 1)
@@ -3376,7 +3366,7 @@
 			(uuid "666819d1-863c-491f-a0dd-f637a4747b39")
 		)
 		(instances
-			(project "PS1 controller breakout"
+			(project "PSX controller breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a"
 					(reference "#PWR014")
 					(unit 1)
@@ -3454,7 +3444,7 @@
 			(uuid "3822b7f7-057e-433a-a897-8a9515ec8dce")
 		)
 		(instances
-			(project "PS1 controller breakout"
+			(project "PSX controller breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a"
 					(reference "#PWR011")
 					(unit 1)
@@ -3563,7 +3553,7 @@
 			(uuid "664fe0a9-9c19-425d-8d31-67035333ba2a")
 		)
 		(instances
-			(project "PS1 controller breakout"
+			(project "PSX controller breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a"
 					(reference "J2")
 					(unit 1)
@@ -3641,7 +3631,7 @@
 			(uuid "20ae3dd6-d565-4f66-a6b8-33313ac7fbc0")
 		)
 		(instances
-			(project "PS1 controller breakout"
+			(project "PSX controller breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a"
 					(reference "#PWR02")
 					(unit 1)
@@ -3719,7 +3709,7 @@
 			(uuid "63233ff8-1807-4466-9cf9-83fef265ee00")
 		)
 		(instances
-			(project "PS1 controller breakout"
+			(project "PSX controller breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a"
 					(reference "#PWR015")
 					(unit 1)
@@ -3797,7 +3787,7 @@
 			(uuid "a5d73cbf-a0c1-408c-b4fd-bcdd0aaf9371")
 		)
 		(instances
-			(project "PS1 controller breakout"
+			(project "PSX controller breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a"
 					(reference "#PWR012")
 					(unit 1)
@@ -3875,7 +3865,7 @@
 			(uuid "065af0ad-44e1-467a-8650-a033949350c8")
 		)
 		(instances
-			(project "PS1 controller breakout"
+			(project "PSX controller breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a"
 					(reference "#PWR016")
 					(unit 1)
@@ -3981,7 +3971,7 @@
 			(uuid "595bd4ea-95eb-410d-a60c-c14008dcb627")
 		)
 		(instances
-			(project "PS1 controller breakout"
+			(project "PSX controller breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a"
 					(reference "J4")
 					(unit 1)
@@ -3991,7 +3981,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_3_Open")
-		(at 184.15 101.6 90)
+		(at 185.42 101.6 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4002,7 +3992,7 @@
 		(fields_autoplaced yes)
 		(uuid "887d4821-f92e-475b-886c-4fc3d8c41724")
 		(property "Reference" "JP1"
-			(at 181.61 100.3299 90)
+			(at 182.88 100.3299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4013,7 +4003,7 @@
 			)
 		)
 		(property "Value" "Jumper_3_Open"
-			(at 181.61 102.8699 90)
+			(at 182.88 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4024,7 +4014,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 101.6 0)
+			(at 185.42 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4035,7 +4025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 101.6 0)
+			(at 195.58 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4046,7 +4036,7 @@
 			)
 		)
 		(property "Description" "Jumper, 3-pole, both open"
-			(at 196.85 101.6 0)
+			(at 198.12 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4057,7 +4047,7 @@
 			)
 		)
 		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
-			(at 201.93 101.6 0)
+			(at 203.2 101.6 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -4068,7 +4058,7 @@
 			)
 		)
 		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
-			(at 204.47 102.87 0)
+			(at 205.74 102.87 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -4088,7 +4078,7 @@
 			(uuid "6efb147e-be47-4998-b13e-d13fc50b4a4c")
 		)
 		(instances
-			(project "PS1 controller breakout"
+			(project "PSX controller breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a"
 					(reference "JP1")
 					(unit 1)
@@ -4098,7 +4088,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_3_Open")
-		(at 184.15 88.9 90)
+		(at 185.42 86.36 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4109,7 +4099,7 @@
 		(fields_autoplaced yes)
 		(uuid "8eaa7df6-a604-44aa-bec3-ce7790aa30a8")
 		(property "Reference" "JP2"
-			(at 181.61 87.6299 90)
+			(at 182.88 85.0899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4120,7 +4110,7 @@
 			)
 		)
 		(property "Value" "Jumper_3_Open"
-			(at 181.61 90.1699 90)
+			(at 182.88 87.6299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4131,7 +4121,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 88.9 0)
+			(at 185.42 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4142,7 +4132,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 88.9 0)
+			(at 195.58 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4153,7 +4143,7 @@
 			)
 		)
 		(property "Description" "Jumper, 3-pole, both open"
-			(at 196.85 88.9 0)
+			(at 198.12 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4164,7 +4154,7 @@
 			)
 		)
 		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
-			(at 201.93 88.9 0)
+			(at 203.2 86.36 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -4175,7 +4165,7 @@
 			)
 		)
 		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
-			(at 204.47 90.17 0)
+			(at 205.74 87.63 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -4195,7 +4185,7 @@
 			(uuid "a0d84a79-955a-41f4-90e8-2effa443752c")
 		)
 		(instances
-			(project "PS1 controller breakout"
+			(project "PSX controller breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a"
 					(reference "JP2")
 					(unit 1)
@@ -4273,7 +4263,7 @@
 			(uuid "dc2580bb-a9c7-463e-ab5c-3c572d0cb27c")
 		)
 		(instances
-			(project "PS1 controller breakout"
+			(project "PSX controller breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a"
 					(reference "#PWR03")
 					(unit 1)
@@ -4375,7 +4365,7 @@
 			(uuid "7f2298f4-2f2d-41ab-807b-8dd2a2293321")
 		)
 		(instances
-			(project "PS1 controller breakout"
+			(project "PSX controller breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a"
 					(reference "J1")
 					(unit 1)
@@ -4453,7 +4443,7 @@
 			(uuid "716fefcd-80ed-4351-a613-283a4a37b8e8")
 		)
 		(instances
-			(project "PS1 controller breakout"
+			(project "PSX controller breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a"
 					(reference "#PWR05")
 					(unit 1)
@@ -4531,7 +4521,7 @@
 			(uuid "1871f9be-06df-4787-9918-f95eb02b8697")
 		)
 		(instances
-			(project "PS1 controller breakout"
+			(project "PSX controller breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a"
 					(reference "#PWR01")
 					(unit 1)
@@ -4541,7 +4531,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 87.63 0)
+		(at 220.98 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4552,7 +4542,7 @@
 		(fields_autoplaced yes)
 		(uuid "e61289d4-ead5-49d0-bdf8-d89200595f5e")
 		(property "Reference" "#PWR08"
-			(at 220.98 93.98 0)
+			(at 220.98 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4563,7 +4553,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 92.71 0)
+			(at 220.98 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4573,7 +4563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 87.63 0)
+			(at 220.98 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4584,7 +4574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 87.63 0)
+			(at 220.98 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4595,7 +4585,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 87.63 0)
+			(at 220.98 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4609,7 +4599,7 @@
 			(uuid "c29b7548-4179-486f-a768-3cb525815258")
 		)
 		(instances
-			(project "PS1 controller breakout"
+			(project "PSX controller breakout"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a"
 					(reference "#PWR08")
 					(unit 1)
