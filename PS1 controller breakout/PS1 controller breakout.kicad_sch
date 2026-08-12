@@ -2076,9 +2076,9 @@
 		)
 		(uuid "168aea00-3428-4d57-9a7e-addf351a22e9")
 	)
-	(text "DEBUG BREAKOUT"
+	(text "DEBUG BREAKOUT\nSAME PINNING AS JST"
 		(exclude_from_sim no)
-		(at 237.49 170.942 0)
+		(at 249.682 174.498 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3893,7 +3893,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "689dd54e-9b47-49e2-b7ce-fd036883aaaf")
 		(property "Reference" "J4"
 			(at 222.25 175.2599 0)
