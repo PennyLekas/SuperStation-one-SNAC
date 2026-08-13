@@ -3239,7 +3239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
 			(at 220.98 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3486,7 +3486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S10B-PH-SM4-TB_1x10-1MP_P2.00mm_Horizontal"
 			(at 220.98 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4013,7 +4013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels"
 			(at 185.42 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4120,7 +4120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels"
 			(at 185.42 86.36 0)
 			(hide yes)
 			(show_name no)
