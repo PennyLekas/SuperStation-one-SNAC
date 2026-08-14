@@ -4281,7 +4281,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b3dabd88-eddc-46df-970f-2ac89a102ef1")
 		(property "Reference" "J1"
 			(at 135.89 125.7299 0)
@@ -4294,8 +4293,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" ""
-			(at 137.16 111.76 0)
+		(property "Value" "PSX Connector 1P"
+			(at 127.254 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4304,7 +4303,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Penny_Connectors:PSX Connector 1P"
 			(at 137.16 111.76 0)
 			(hide yes)
 			(show_name no)
