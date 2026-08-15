@@ -9966,7 +9966,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "709afe73-fdaa-4542-bf74-bdd3812231f5")
 		(property "Reference" "#PWR024"
 			(at 63.5 204.47 0)
@@ -9979,14 +9978,15 @@
 				)
 			)
 		)
-		(property "Value" "+7.5V"
-			(at 63.5 195.58 0)
+		(property "Value" "+7.6V"
+			(at 60.198 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -10581,7 +10581,7 @@
 				)
 			)
 		)
-		(property "Value" "+7.5V"
+		(property "Value" "+7.6V"
 			(at 43.18 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
