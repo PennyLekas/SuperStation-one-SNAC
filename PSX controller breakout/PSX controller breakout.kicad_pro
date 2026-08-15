@@ -159,10 +159,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.1,
         "min_text_thickness": 0.01,
-        "min_through_hole_diameter": 0.15,
-        "min_track_width": 0.16,
-        "min_via_annular_width": 0.2,
-        "min_via_diameter": 0.25,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.1,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -553,9 +553,8 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.3,
+        "clearance": 0.5,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -583,11 +582,11 @@
       },
       {
         "netclass": "Power",
-        "pattern": "+3.3*"
+        "pattern": "+3.3V"
       },
       {
         "netclass": "Power",
-        "pattern": "+7.5*"
+        "pattern": "+7.6V"
       },
       {
         "netclass": "Power",
