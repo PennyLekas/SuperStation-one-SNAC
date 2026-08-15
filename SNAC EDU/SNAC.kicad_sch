@@ -926,19 +926,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -10.16 15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "USB3_A"
-				(at 10.16 15.24 0)
+			(property "Reference" "J2"
+				(at -11.43 0.6351 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -948,7 +937,18 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Value" "USB3_A"
+				(at -11.43 -1.9049 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Connector_USB:USB_A_Receptacle_XKB_U231-091N-4BLRA00-S"
 				(at 3.81 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1437,7 +1437,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8374,7 +8374,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32fbea19-c325-4e3e-9d8c-dbab8787625f")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 35.56 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8463,7 +8463,7 @@
 		(instances
 			(project "SNAC EDU"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -9305,7 +9305,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "58627ea2-fe39-4300-a27c-c0867750f070")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 38.735 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9385,7 +9385,7 @@
 		(instances
 			(project "SNAC EDU"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -9800,7 +9800,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "67daef62-e176-4df8-8e97-673879ece0e3")
-		(property "Reference" "J7"
+		(property "Reference" "J5"
 			(at 38.735 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9871,7 +9871,7 @@
 		(instances
 			(project "SNAC EDU"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "J7")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -10463,24 +10463,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8721b726-a180-4378-a1f5-a49dbcca01ad")
-		(property "Reference" "J3"
-			(at 398.78 105.41 0)
+		(property "Reference" "J2"
+			(at 410.21 123.8249 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "USB3_A"
-			(at 398.78 107.95 0)
+			(at 410.21 126.3649 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Connector_USB:USB3_A_Receptacle_Wuerth_692122030100"
@@ -10540,7 +10542,7 @@
 		(pin "3"
 			(uuid "a80d6c45-e31e-4f1e-9464-4cf482dba02d")
 		)
-		(pin "10"
+		(pin "SH"
 			(uuid "d7ed0823-9b64-4b9c-a3da-761232be0986")
 		)
 		(pin "1"
@@ -10549,7 +10551,7 @@
 		(instances
 			(project "SNAC EDU"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -11471,7 +11473,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ade63f99-6707-4ff1-84e9-086c8a394c84")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 38.735 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11551,7 +11553,7 @@
 		(instances
 			(project "SNAC EDU"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
