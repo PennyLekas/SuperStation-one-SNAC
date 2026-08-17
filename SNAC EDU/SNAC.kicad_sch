@@ -8049,6 +8049,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+7.5V")
+		(at 50.8 200.66 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1c37864e-5e83-4f2c-bb90-97033bc94961")
+		(property "Reference" "#PWR024"
+			(at 50.8 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+7.6V"
+			(at 47.498 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
+			(at 50.8 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c8638fa7-e568-4944-9f15-926dcff13537")
+		)
+		(instances
+			(project "SNAC EDU"
+				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 50.8 30.48 0)
 		(unit 1)
@@ -8293,7 +8372,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30d1f26b-ff80-4d15-bcf2-ae829591af46")
-		(property "Reference" "JP6"
+		(property "Reference" "JP4"
 			(at 86.36 48.768 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8356,7 +8435,7 @@
 		(instances
 			(project "SNAC EDU"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "JP6")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -8818,7 +8897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49b2a8c1-e6fc-4af6-a832-df70675bdd86")
-		(property "Reference" "JP7"
+		(property "Reference" "JP5"
 			(at 86.36 51.308 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8881,7 +8960,7 @@
 		(instances
 			(project "SNAC EDU"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "JP7")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -9392,84 +9471,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 50.8 200.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5fa1caef-db49-4878-88f0-60345784a85f")
-		(property "Reference" "#PWR022"
-			(at 50.8 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 50.8 195.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 50.8 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "12ff2f57-e5c1-4466-80cb-45bc5134f383")
-		)
-		(instances
-			(project "SNAC EDU"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 57.15 200.66 0)
 		(mirror y)
@@ -9559,7 +9560,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64157f75-2482-4b10-8302-096570506447")
-		(property "Reference" "JP3"
+		(property "Reference" "JP1"
 			(at 86.36 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9622,7 +9623,7 @@
 		(instances
 			(project "SNAC EDU"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "JP3")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -9783,6 +9784,84 @@
 			(project "SNAC EDU"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 63.5 200.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6601e4cb-c0a2-439b-837f-69a6cf4a1c8c")
+		(property "Reference" "#PWR022"
+			(at 63.5 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 63.5 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 63.5 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b1fb821-c80c-49ea-9f46-ac8b643f7e02")
+		)
+		(instances
+			(project "SNAC EDU"
+				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -9956,85 +10035,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+7.5V")
-		(at 63.5 200.66 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "709afe73-fdaa-4542-bf74-bdd3812231f5")
-		(property "Reference" "#PWR024"
-			(at 63.5 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+7.6V"
-			(at 60.198 195.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
-			(at 63.5 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "acef3821-5689-4572-a847-f973d92ae813")
-		)
-		(instances
-			(project "SNAC EDU"
-				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
 		(at 86.36 48.26 0)
 		(unit 1)
@@ -10045,7 +10045,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72c9dd8e-dde6-4c05-9338-44b29aa8d1c8")
-		(property "Reference" "JP5"
+		(property "Reference" "JP3"
 			(at 86.36 46.228 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10108,7 +10108,7 @@
 		(instances
 			(project "SNAC EDU"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "JP5")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -10985,7 +10985,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8f8000e-6f02-45d8-8f2d-ebe45fef2674")
-		(property "Reference" "JP10"
+		(property "Reference" "JP7"
 			(at 86.36 56.388 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11048,7 +11048,7 @@
 		(instances
 			(project "SNAC EDU"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "JP10")
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -12226,7 +12226,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc0d7e0c-ba91-484f-83bf-32de0f9b9ce2")
-		(property "Reference" "JP9"
+		(property "Reference" "JP6"
 			(at 86.36 53.848 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12289,7 +12289,7 @@
 		(instances
 			(project "SNAC EDU"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "JP9")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -12868,7 +12868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5b3f5e7-8068-4306-8de5-9ddf11594bb7")
-		(property "Reference" "JP4"
+		(property "Reference" "JP2"
 			(at 86.36 43.688 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12931,7 +12931,7 @@
 		(instances
 			(project "SNAC EDU"
 				(path "/cbd92933-d20e-42b7-906c-813e5f34c94a/fbfcc61c-380e-426e-8388-ba29034c9159"
-					(reference "JP4")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
