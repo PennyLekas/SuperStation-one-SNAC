@@ -553,7 +553,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.5,
+        "clearance": 0.3,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -721,7 +721,7 @@
         "uuid": "cbd92933-d20e-42b7-906c-813e5f34c94a"
       }
     ],
-    "used_designators": "R16-17,JP4-7,JP9-11,D1-2,J2,#PWR1-2,#PWR47-49",
+    "used_designators": "R16-17,JP4-7,JP9-11,D1-2,J2,#PWR1-2,#PWR22,#PWR24,#PWR47-49",
     "variants": []
   },
   "sheets": [
